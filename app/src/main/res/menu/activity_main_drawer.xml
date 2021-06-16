@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Inicio"
+            android:icon="@drawable/iconinicio"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/Productos"
+            android:icon="@drawable/iconproducto"
+            android:title="Productos" >
+        </item>
+
+        <item
+            android:id="@+id/Carrito"
+            android:icon="@drawable/carrito2"
+            android:title="Carrito de compras" />
+
+        <item
+            android:id="@+id/Categorias"
+            android:icon="@drawable/iconcategorias"
+            android:title="Categoria" />
+        <item
+            android:id="@+id/ConsultarProducto"
+            android:icon="@drawable/iconbuscar"
+            android:title="Consultar Producto" />
+        <item
+            android:id="@+id/EditarEliminarProducto"
+            android:icon="@drawable/editicon"
+            android:title="Mantenimiento Producto" />
+        <item
+            android:id="@+id/RegistrarProveedor"
+            android:icon="@drawable/proveedor"
+            android:title="Registrar Proveedor" />
+        <item
+            android:id="@+id/MantenimientoProveedor"
+            android:icon="@drawable/manproveedor"
+            android:title="Mantenimiento Proveedor" />
+
+
+        <item android:title="Inventario">
+            <menu>
+                <item
+                    android:id="@+id/ConsultaStock"
+                    android:icon="@drawable/inventario2"
+                    android:title="Consultar Stock" />
+            </menu>
+        </item>
+
+
+
+    </group>
+    <item android:title="Información">
+        <menu>
+            <item
+                android:id="@+id/idPerfil"
+                android:icon="@drawable/iconusuario"
+                android:title="Perfil" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:visibility="visible"
+    android:background="@drawable/fondo_menu10"
+    tools:context=".ui.fragments.ConsultarStockFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/white"
+            android:text="CONSULTA STOCK"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <EditText
+                android:id="@+id/etNombrePS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="5dp"
+                android:hint="Nombre del producto"
+                android:background="@drawable/edit01"
+                android:textSize="20sp"
+                android:padding="15dp"
+                android:layout_weight=".5"
+                android:textColor="@android:color/background_dark"/>
+
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/etMarcaPS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/edit01"
+            android:editable="false"
+            android:hint="Marca"
+            android:padding="15dp"
+            android:textColor="@android:color/background_dark" />
+
+        <EditText
+            android:id="@+id/etPrecioPS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/edit01"
+            android:editable="false"
+            android:hint="Precio"
+
+            android:padding="15dp"
+            android:textColor="@android:color/background_dark" />
+
+
+        <EditText
+            android:id="@+id/etStockPS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/edit01"
+            android:editable="false"
+            android:hint="Stock"
+
+            android:padding="15dp"
+            android:textColor="@android:color/background_dark" />
+
+
+        <EditText
+            android:id="@+id/etVendidosPS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/edit01"
+            android:editable="false"
+
+            android:hint="Vendidos"
+            android:padding="15dp"
+            android:textColor="@android:color/background_dark" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout2">
+
+        <Button
+            android:id="@+id/btnConsultarPS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CONSULTAR"
+            android:background="@color/red"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:layout_weight="2"
+            android:layout_marginRight="1dp"/>
+
+
+    </LinearLayout>
+</RelativeLayout>

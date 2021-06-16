@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:visibility="visible"
+    tools:context=".ui.fragments.EditeDeleteProductosFragment"
+    android:background="@drawable/fondo_menu10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/white"
+            android:text="MANTENIMIENTO PRODUCTO"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/etNombrePro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:hint="Nombre de producto"
+                android:background="@drawable/edit01"
+
+                android:textSize="20sp"
+                android:padding="8dp"
+                android:layout_weight=".5"
+                android:textColor="@android:color/background_dark"/>
+
+            <ImageButton
+                android:id="@+id/btnConsultarPro"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:src="@android:drawable/ic_menu_search"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/background_dark"
+                android:layout_weight="3"
+                />
+
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/etCategoriaPro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit01"
+            android:padding="11dp"
+            android:hint="Categoria"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@android:color/background_dark"
+            />
+
+
+        <EditText
+            android:id="@+id/etMarcaPro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Marca"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/edit01"
+            android:padding="11dp"
+            android:textColor="@android:color/background_dark"
+            />
+
+        <EditText
+            android:id="@+id/etPrecioPro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Precio"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/edit01"
+            android:padding="11dp"
+            android:textColor="@android:color/background_dark"
+             />
+        <EditText
+            android:id="@+id/etStockPro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Stock"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/edit01"
+            android:padding="11dp"
+            android:textColor="@android:color/background_dark"
+            />
+
+        <EditText
+            android:id="@+id/etVendidosPro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Vendidos"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/edit01"
+            android:padding="11dp"
+            android:textColor="@android:color/background_dark"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout2">
+
+        <Button
+            android:id="@+id/btnActualizarPro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Actualizar"
+            android:background="@color/red"
+            android:textColor="@android:color/white"
+            android:layout_weight="2"
+            android:layout_marginRight="1dp"/>
+
+        <Button
+            android:id="@+id/btnEliminarPro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Eliminar"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:layout_weight="2"
+            android:layout_marginLeft="1dp"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivImagenPro"
+        android:layout_width="250dp"
+        android:layout_height="190dp"
+        android:layout_above="@+id/linearLayout2"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/img_base" />
+
+
+
+</RelativeLayout>

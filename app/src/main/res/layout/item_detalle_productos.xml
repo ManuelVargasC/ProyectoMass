@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/contenedor"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:padding="7dp"
+            android:id="@+id/ivImagenProducto"
+            android:layout_width="180dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <LinearLayout
+            android:layout_width="188dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvProducto"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Nombre"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+
+            <TextView
+                android:id="@+id/tvPrecio"
+                android:layout_width="151dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="id"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:visibility="visible"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="11dp"
+        android:background="@color/white" />
+
+</LinearLayout>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:visibility="visible"
+    android:background="@drawable/fondo_menu10"
+    tools:context=".ui.fragments.EditedeleteProveedoresFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/white"
+            android:text="MANTENIMIENTO PROVEEDORES"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/etNombreProveedorC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:hint="Nombre de Proveedor"
+            android:background="@drawable/edit01"
+            android:textSize="20sp"
+            android:padding="8dp"
+            android:layout_weight=".5"
+            android:textColor="@android:color/background_dark"/>
+
+        <ImageButton
+            android:id="@+id/btnConsultarProveedorC"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:src="@android:drawable/ic_menu_search"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/background_dark"
+            android:layout_weight="3"
+            />
+    </LinearLayout>
+        <EditText
+            android:id="@+id/etRazonSocialProveedorC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30dp"
+            android:padding="15dp"
+            android:background="@drawable/edit01"
+            android:hint="Razon social"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@android:color/background_dark"
+            />
+
+        <EditText
+            android:id="@+id/etRucProveedorC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="8dp"
+            android:padding="15dp"
+            android:background="@drawable/edit01"
+            android:hint="Ruc "
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@android:color/background_dark"
+            />
+
+
+        <EditText
+            android:id="@+id/etDireccionProveedorC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="20dp"
+            android:padding="15dp"
+            android:background="@drawable/edit01"
+            android:hint="Direccion"
+            android:textColor="@android:color/background_dark"
+            />
+
+
+        <EditText
+            android:id="@+id/etnTelefonoProveedorC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="20dp"
+            android:padding="15dp"
+            android:background="@drawable/edit01"
+            android:hint="Telefono"
+            android:textColor="@android:color/background_dark" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout2">
+
+        <Button
+            android:id="@+id/btnActualizarProveedorC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Actualizar"
+            android:background="@color/red"
+            android:textColor="@android:color/white"
+            android:layout_weight="2"
+            android:layout_marginRight="1dp"/>
+
+        <Button
+            android:id="@+id/btnEliminarProveedorC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Eliminar"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:layout_weight="2"
+            android:layout_marginLeft="1dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

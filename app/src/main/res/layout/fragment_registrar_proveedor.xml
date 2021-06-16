@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:visibility="visible"
+    tools:context=".ui.fragments.RegistrarProveedorFragment"
+    android:background="@drawable/fondo_menu11">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="24dp"
+        android:orientation="vertical"
+        android:paddingRight="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="REGISTRAR PROVEEDOR"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/etnNombreProveedor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="20dp"
+            android:padding="15dp"
+            android:background="@drawable/edit01"
+            android:hint="Nombre del Proveedor"
+            android:textColor="@android:color/background_dark" />
+
+        <EditText
+            android:id="@+id/etRazonSocialProveedor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="8dp"
+            android:padding="15dp"
+            android:background="@drawable/edit01"
+            android:hint="Razon social"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@android:color/background_dark"
+            />
+
+        <EditText
+            android:id="@+id/etRucProveedor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="8dp"
+            android:padding="15dp"
+            android:background="@drawable/edit01"
+            android:hint="Ruc "
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@android:color/background_dark"
+            />
+
+
+        <EditText
+            android:id="@+id/etDireccionProveedor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="20dp"
+            android:padding="15dp"
+            android:background="@drawable/edit01"
+            android:hint="Direccion"
+            android:textColor="@android:color/background_dark"
+            />
+
+
+        <EditText
+            android:id="@+id/etnTelefonoProveedor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="20dp"
+            android:padding="15dp"
+            android:background="@drawable/edit01"
+            android:hint="Telefono"
+            android:textColor="@android:color/background_dark" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout2">
+
+        <Button
+            android:id="@+id/btnRegistrarProveedor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrar"
+            android:background="@color/red"
+            android:textColor="@android:color/white"
+            android:layout_weight="2"
+            android:layout_marginRight="1dp"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

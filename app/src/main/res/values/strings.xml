@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ProyectoFinalMass</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="valbtnLogin">INICIAR SESIÓN</string>
+    <string name="valbtnRegistrarse">REGISTRARSE</string>
+    <string name="valetCorreo">Correo</string>
+    <string name="valetUsuario">Nombre de usuario</string>
+    <string name="valetPassword">Contraseña</string>
+    <string name="valcbTerminos">Acepto los Términos y Condiciones y la Política de Privacidad</string>
+    <string name="valbtnNuevoUsuario">Registrarse</string>
+    <string name="etuser">Ingrese su usuario</string>
+    <string name="etpassword">Ingrese contraseña</string>
+    <string name="tfalse">.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

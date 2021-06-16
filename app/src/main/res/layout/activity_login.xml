@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:paddingLeft="24dp"
+        android:orientation="vertical"
+        android:paddingRight="24dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/logoma" />
+
+        <EditText
+            android:id="@+id/etUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edit01"
+            android:drawableLeft="@drawable/user"
+            android:hint="@string/etuser"
+            android:inputType="textPersonName"
+            android:padding="15dp"
+
+            android:textColor="@android:color/background_dark" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:background="@drawable/edit01"
+            android:drawableLeft="@drawable/password2"
+            android:hint="@string/etpassword"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:textColor="@android:color/background_dark" />
+
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:padding="19dp"
+            android:text="@string/valbtnLogin"
+            android:textColor="@android:color/white"
+            android:textSize="15dp"
+            app:backgroundTint="#00008B" />
+
+        <Button
+            android:id="@+id/btnRegistrarse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:padding="19dp"
+            android:text="@string/valbtnRegistrarse"
+            android:textColor="@android:color/white"
+            android:textSize="15dp"
+            app:backgroundTint="#00008B" />
+
+        <TextView
+            android:id="@+id/tvolvidopass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="24dp"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="¿Has olvidado tu constraseña?"
+            android:textColor="#FFFFFF"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
